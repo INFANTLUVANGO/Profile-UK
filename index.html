@@ -17,11 +17,19 @@
 </head>
 <style>
     *{
-        padding: 0px;
-        margin: 0px;
+        box-sizing: border-box;
+        color: rgb(0, 0, 0);
     }
-    a:hover{
-        background-color: rgb(240, 9, 9);
+   /* body{
+        background-image: url(https://cdn.wallpapersafari.com/35/66/dYJlca.jpg);
+        height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; */
+    
+    h1,h2,h3{
+        font-weight: 550;
     }
     p {
         font-size: 20px;
@@ -31,20 +39,41 @@
     }
 
     #nav {
-        padding-right: 20px;
         font-weight: bold;
     }
 
     .a {
         margin-bottom: 0px;
+        font-weight: bold;
     }
-
+    .navbar-fixed-top{
+        background-color:aqua;  
+    }
+    .navbar-fixed-left{
+        margin-top: 30px;
+    }
     .head {
         margin: 0px;
-        text-align:end ;
-        color: rgb(251, 246, 246);
+        text-align:center;
+        color: rgb(255, 255, 255);
         background-color: rgb(3, 0, 0);
+        background-image: url(https://tse4.mm.bing.net/th?id=OIP.3laGwB8mHH6ICppIWKW7awHaEo&pid=Api&P=0&h=180);
         padding-right: 50px;
+        font-weight: bold;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    #HOME{
+        padding-top: 170px;
+    }
+    .career{
+        font-weight:bolder; margin-bottom:10px; text-align: center;
+    }
+    .image{
+        width:70%; margin-left: 200px;
+    }
+    .mySlides{
+        width:100%;height: 70vh;
     }
     th{
         padding: 20px;
@@ -57,42 +86,111 @@
     }
     .education{
         text-align: center;
+        margin-top: 40px;
     }
     .edutable{
-        margin-left: 110px;
+       margin-left: 110px;
     }
     .pub{
         font-size: 20px;
         font-weight: 200;
-        padding: 7px;
+        padding: 15px;
     }
     .navleft{
         height: 100%;
         position:fixed;
         z-index: 1;
+        background-color: aqua;height: 100vh;padding-top: 150px;
     }
-    .navleft a{
-        display: block;
+    #WORK1 {
+        padding-top: 180px; margin-left: 400px; width:100%;
+    }
+    #WORK2{
+        padding-top: 180px; margin-left: 400px; width:100%;
+    }
+    #WORK3{
+        padding-top: 180px; margin-left: 400px; width:100%;
+    }
+    #WORK4{
+        padding-top: 180px; margin-left: 400px; width:100%;
+    }
+    .work2{
+        font-size: 20px;
+        font-weight: 200;
+        padding-top: 10px;
+        padding-left: 40px;
+    }
+    .work3{
+        font-size: 20px;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-left:40px;
+        list-style-type: square;
+    }
+    .work4{
+        font-size: 20px;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-left:40px;
+        list-style-type: square;
+    }
+    #PUB1{
+        padding-top: 180px; margin-left: 400px; width:100%;
+    }
+    #PUB2{
+        padding-top: 180px; margin-left: 400px; width:100%;
+    }
+    #PUB3{
+        padding-top: 180px; margin-left: 400px; width:100%;
+    }
+    #PUB4{
+        padding-top: 180px; margin-left: 400px; width:100%;
+    }
+    .gap{
+        padding: 5px;
+    }
+    .container-fluid{
+        margin-top: 30px
+    }
+    #PAP1{
+        padding-top: 180px; margin-left: 400px; width:100%;
+    }
+    #PAP2{
+        padding-top: 180px; margin-left: 400px; width:100%;
+    }
+    .pap1{
+        font-size: 20px;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-left:40px;
+        list-style-type: square;
+    }
+    .pap2{
+        font-size: 20px;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-left:40px;
+        list-style-type: square;
     }
 </style>
 
 <body>
-    <div class="container-fluid" style="margin-top:30px ;">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <ul class="nav nav-pills navbar-fixed-top" style="background-color:aqua; padding-right: 0px;">
-                    <h1 class="head" style="font-weight:bold;padding-top: 60px;padding-bottom: 60px;">UTHAYAKUMAR G.S</h1>
+                <ul class="nav nav-pills navbar-fixed-top">
+                    <h1 class="head">UTHAYAKUMAR G.S</h1>
                     <li id="nav" class="active"><a data-toggle="pill" href="#HOME">HOME</a></li>
                     <li id="nav"><a data-toggle="pill" href="#WORK">WORK EXPERIENCE</a></li>
                     <li id="nav"><a data-toggle="pill" href="#PUBLICATION">PUBLICATIONS</a></li>
-                    <li id="nav"><a data-toggle="pill" href="#PAPER PRESENTASION">PAPER PRESENTASION</a></li>
+                    <li id="nav"><a data-toggle="pill" href="#PAPERPRESENTATION">PAPER PRESENTATION</a></li>
                     <li id="nav"><a data-toggle="pill" href="#ACHIVEMENTS">ACHIVEMENTS</a></li>
                     <li id="nav"><a data-toggle="pill" href="#WORKSHOPS">WORKSHOPS</a></li>
                     <li id="nav"><a data-toggle="pill" href="#WEBINARS">WEBINARS</a></li>
                 </ul>
                 <div class="tab-content">
-                    <div id="HOME" class="tab-pane fade in active"style=" padding-top: 170px;">
-                        <h2 style="font-weight:bolder ;margin-bottom:10px;text-align: center;"> CAREER SUMMARY </h2>
+                    <div id="HOME" class="tab-pane fade in active">
+                        <h2 class="career"> CAREER SUMMARY </h2>
                         <p >
                             I am basically an Electronics and Communication Engineer with M.B.A(Marketing) and
                             M.E.(Medical Electronics) and completed Ph.D in College of Engineering, Anna University.
@@ -109,15 +207,15 @@
                             in our college.
                         </p>
                        
-                         <div class="image" style="width:70%; margin-left: 200px;">
-                                 <img class="mySlides" src="data:image/jpeg;base64,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" style="width:100%;height:70vh;">
-                                 <img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuiuiYY--ENGKHCxoshOIavDEMIyHjKkpARw&usqp=CAU" style="width:100%;height: 70vh;">
-                                 <img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuiuiYY--ENGKHCxoshOIavDEMIyHjKkpARw&usqp=CAU" style="width:100%;height: 70vh;">
+                         <div class="image">
+                                 <img class="mySlides" src="data:image/jpeg;base64,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">
+                                 <img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuiuiYY--ENGKHCxoshOIavDEMIyHjKkpARw&usqp=CAU">
+                                 <img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuiuiYY--ENGKHCxoshOIavDEMIyHjKkpARw&usqp=CAU">
                         </div>
                            
 
-                            <div class="education" style="margin-top:40px ;">
-                                <h2 style="font-weight:bolder ;">EDUCATION DETAILS</h2><br>
+                            <div class="education">
+                                <h2 >EDUCATION DETAILS</h2><br>
                                 <table border="2px"class="edutable">
                                     <tr>
                                         <th>Name of the Exam</th>
@@ -196,129 +294,229 @@
                     </div> 
 
                     <div id="WORK" class="tab-pane fade">
-                        <div class="navleft col-md-3"style="background-color: aqua;height: 100vh;padding-top: 150px;">
-                            <ul class="nav nav-tabs nav-stacked navbar-fixed-left" style="margin-top: 30px;">
+                        <div class="navleft col-md-3">
+                            <ul class="nav nav-tabs nav-stacked navbar-fixed-left">
                                 <li class="active a"><a  data-toggle="tab"  href="#WORK1">DETAILS OF EMPLOYMENT</a></li>
                                 <li class="a"><a  data-toggle="tab"  href="#WORK2">EXPERIENCE</a></li>
-                                <li class="a"><a  data-toggle="tab"  href="#WORK3">ACADEMIC ACHIVEMENTS</a></li>
-                                <li class="a"><a  data-toggle="tab"  href="#WORK4">INDUSTRY CAREER</a></li>
-                                <li class="a"><a  data-toggle="tab"  href="#WORK5">ROLES AND RESPONSIBILITIES</a></li>
+                                <li class="a"><a  data-toggle="tab"  href="#WORK3">INDUSTRY CAREER</a></li>
+                                <li class="a"><a  data-toggle="tab"  href="#WORK4">INDUSTRY CAREER RESPONSIBILITIES</a></li>
                             </ul>
                         </div>
                         <div class="tab-content col-md-9">
-                            <div id="WORK1"  class="tab-pane fade in active" style="padding-top: 180px;margin-left: 400px;width:100%;">
-                               <table class="work" border="1">
+                            <div id="WORK1"  class="tab-pane fade in active">
+                               <table class="work1" border="2">
                                 <tr>
-                                    <th>Name of the Employer</th>
-                                    <th>Designation</th>
-                                    <th>Period</th>
-                                    <th colspan="3">Experience</th>
+                                    <th class="w">Name of the Employer</th>
+                                    <th class="w">Designation</th>
+                                    <th class="w">Period</th>
+                                    <th colspan="3" class="w">Experience</th>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td>St.Joseph’s Institute of 
+                                        Technology,Chennai-119
+                                        </td>
+                                    <td>Associate Professor</td>
+                                    <td>01.06.2019 to till date</td>
                                     <td>3</td>
                                     <td>03</td>
                                     <td>25</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td>St.Joseph’s College of 
+                                        Engineering,Chennai-119</td>
+                                    <td>Associate Professor</td>
+                                    <td>01.08.08 to 31.05.19</td>
                                     <td>10</td>
                                     <td>10</td>
                                     <td>00</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td rowspan="2">Lord Venkateshwaraa 
+                                        Engg. College, 
+                                        Puliyambakkam</td>
+                                    <td>Vice Principal</td>
+                                    <td>HOD-ECE</td>
                                     <td>2</td>
                                     <td>-</td>
                                     <td>00</td>
-                                </tr>
+                                     <tr>
+                                        <td>HOD-ECE</td>
+                                        <td>12.08.05 to 31.07.06</td>
+                                        <td>-</td>
+                                        <td>11</td>
+                                        <td>19</td>
+                                     </tr>
+                               
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td>-</td>
-                                    <td>11</td>
-                                    <td>19</td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td>Kalsar College of 
+                                        Engineering,Chennai</td>
+                                    <td>HOD-ECE</td>
+                                    <td>11.08.04 to 11.08.05 </td>
                                     <td>1</td>
                                     <td>-</td>
                                     <td>00</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td>Infotronics and 
+                                        Compucontrols Pvt.,Ltd, 
+                                        Chennai</td>
+                                    <td>Project-Manager</td>
+                                    <td>27.05.99 to 10.08.04 </td>
                                     <td>5</td>
                                     <td>2</td>
                                     <td>13</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td>S & S Systems, Chennai</td>
+                                    <td>Proprietor</td>
+                                    <td>02.03.94 to 26.05.99 </td>
                                     <td>5</td>
                                     <td>2</td>
                                     <td>24</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td>Utility Engineering,
+                                        Chennai</td>
+                                    <td>Service Engineer</td>
+                                    <td> 03.01.94 to 01.03.94</td>
                                     <td>0</td>
                                     <td>2</td>
                                     <td>02</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td>Medal Marketing, Trichur, 
+                                        Kerala</td>
+                                    <td>Service Engineer</td>
+                                    <td>30.10.92 to 30.10.93</td>
                                     <td>1</td>
                                     <td>-</td>
                                     <td>-</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td>Mekaster Electronics 
+                                        Service Centre Pvt.Ltd.,
+                                        Chennai</td>
+                                    <td>Executive Engineer</td>
+                                    <td> 01.04.92 to 01.07.92</td>
                                     <td>-</td>
                                     <td>3</td>
                                     <td>-</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td>Indian Engineering 
+                                        College, Nagakoil</td>
+                                    <td>Assoc.Lecturer</td>
+                                    <td> 01.05.90 to 01.03.92</td>
                                     <td>1</td>
                                     <td>10</td>
                                     <td>-</td>
                                 </tr>
                                 <tr>
+                                    <td colspan="2" style="text-align: center;">Total</td>
                                     <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    
                                     <td>31</td>
                                     <td>10</td>
                                     <td>03</td>
                                 </tr>
                                </table>
                             </div>
+
+                            <div id="WORK2"  class="tab-pane fade" >
+                                <h2>Total Teaching Experience : 20 Years 4 Months 2 Days</h2>
+                                <h2>Total Industrial Experience: 11 Years 6 Months 1 Day</h2><br>
+                                <h3>21 years of teaching experience :</h3>
+                                <ul class="work2">
+                                    <li>Two years at Kalsar College of Engineering, Chennai</li><br>
+                                    <li>Five years at Lord Venkateshwara College of Engineering, Kanchipuram</li><br>
+                                    <li>Eleven years at St.Joseph’s College of Engineering, Chennai-600119</li><br>
+                                    <li>Three years at St.Joseph’s Institute of Technology,Chennai-600119</li><br>
+                                </ul>
+                                <h3>Departmental Activities :</h3>
+                                <ul class="work2" type="none">
+                                    <li>➢ Time table in-charge</li><br>
+                                    <li>➢ Placement in-charge for department</li><br>
+                                    <li>➢ Guest Lecture in-charge</li><br>
+                                    <li>➢ Industrial visit in-charge</li><br>
+                                    <li>➢ Students workshop in-charge</li><br>
+                                </ul>
+                            </div>
+
+                            <div id="WORK3"  class="tab-pane fade" >
+                                <h2>Organization : Infotronics and Compucontrols Pvt.Ltd.,</h2>
+                                <h2>Period of Work : From May'99 to Aug’04</h2>
+                                <h2>Designation : 'Project Manager'</h2>
+                                <br>
+                                <h2>Organization : S and S Systems, Chennai</h2>
+                                <h2>Period of Work : From Mar' 94 to May' 99</h2>
+                                <h2>Designation : Proprietor</h2>
+                                <br>
+                                <h3>Significant Achievements</h3>
+                                <ul class="work3">
+                                    <li class="gap">Completed 50 projects successfully and implemented at client place.</li>
+                                    <li class="gap">Meeting client and finding the exact requirement and providing solutions.</li>
+                                    <li class="gap">Selection of 450 candidates from different locations for Domestic and Overseas assignments.</li>
+                                </ul>
+                                <br>
+                                <h3>Significant achievement during Execution of the project</h3>
+                                <ul class="work3">
+                                    <li class="gap">Insist upon the right to select key project team members. </li>
+                                    <li class="gap">Select key team members with proven track records in their fields.</li>
+                                    <li class="gap">Develop commitment and a sense of mission from the outset.</li>
+                                    <li class="gap">Have key team member's assist in decision-making and problem solving.</li>
+                                    <li class="gap">Develop realistic costs, schedules, end performance estimate and goals.</li>
+                                    <li class="gap">Seek to eliminate the image of the project in viewpoint of the client.</li>
+                                    <li class="gap">Avoid over reliance on a particular type of control tool.</li>
+                                </ul>
+                            </div>
+
+                            <div id="WORK4"  class="tab-pane fade" >
+                                <h3>KEY RESPONSIBILITIES</h3>
+                                <ul class="work4">
+                                    <li class="gap"> Guiding the trainees in project development.</li>
+                                    <li class="gap"> Selecting subordinates to domestic and Overseas.</li>
+                                    <li class="gap"> Identify the right teams and motivating them in the project.</li>
+                                    <li class="gap"> Correcting errors in coding &  Adding new features.</li>
+                                    <li class="gap"> Optimizing for execution of speed or program size.</li>
+                                    <li class="gap"> Reconfiguring the software to solve a similar related package.</li>
+                                    <li class="gap"> Comparisons of current 'as-is' operations with potential 'to-be' charted with confidence.</li>
+                                    <li class="gap"> Making pricing decisions</li>
+                                    <li class="gap"> Determine the 'mix of employees skills' to meet the corporate objectives.</li>
+                                </ul>
+                                <br>
+                                <h3>Roles and Responsibilities</h3>
+                                <ul class="work4">
+                                    <li> Responsible for developing intranet and custom applications for the 'Supervision and 
+                                        regulation' department in order to assist in the supervision and control of various banks</li><br>
+                                    <li>Designed and developed intranet applications in Java, using the server stream and web 
+                                        logic application server and a MS SQL database.</li><br>
+                                    <li>Maintained the department intranet on a daily basis using(HTML, JavaScript, DHTML, 
+                                        Photoshop and Acrobat).</li><br>
+                                    <li>Provided one-on-one as well as group tutoring to help students of introductory and 
+                                        intermediate level in CS and Physics classes in C++, Algorithms, and Digital Systems. 
+                                        Mentored students on Java++ pointer manipulation, sorting, searching and graph 
+                                        algorithms and NP Completeness.</li><br>
+                                    <li>Responsible for pre-sales technical support for a J2EE / Services Oriented Architecture 
+                                        product</li><br>
+                                    <li>Involved in preparing presentations, demos, proof of concepts, technical sales material, 
+                                        and sales tools such as ROI, and Architecture Maturity</li><br>
+                                    <li>Managed NT 4 servers operating as file/print/application servers. Initiated UNIX-NT 
+                                        integration. Responsibilities included writing PERL scripts for accounts/Directory 
+                                        synchronization and performing daily administrative tasks such as directory replication,
+                                        backups, and domain management. Installed FTP and HTTP servers and a UNIX shell.</li><br>
+                                    <li>Worked on proof of concepts on using the Wakesoft Architecture Platform to deliver 
+                                        service-oriented applications on BEA web logic and IBM WebSphere.</li><br>
+                                    <li>Work with prospective customers giving presentations, helping in evaluations, and 
+                                        technical training.</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
 
                 
                     <div id="PUBLICATION" class="tab-pane fade" >
-                        <div class="navleft col-md-3"style="background-color: aqua;height: 100vh;padding-top: 150px;">
-                                <ul class="nav nav-tabs nav-stacked navbar-fixed-left" style="margin-top: 30px;">
+                        <div class="navleft col-md-3">
+                                <ul class="nav nav-tabs nav-stacked navbar-fixed-left">
                                     <li class="active a"><a  data-toggle="tab"  href="#PUB1">JOURNALS</a></li>
                                     <li class="a"><a  data-toggle="tab"  href="#PUB2">BOOKS</a></li>
                                     <li class="a"><a  data-toggle="tab"  href="#PUB3">PATENTS</a></li>
@@ -327,7 +525,7 @@
                                 </ul>
                         </div>
                         <div class="tab-content col-md-9">
-                            <div id="PUB1" class="tab-pane fade in active" style="padding-top: 180px;margin-left: 400px;width:100%;">
+                            <div id="PUB1" class="tab-pane fade in active">
                               <ul class="pub">
                                 <li>G.S.Uthayakumar1
                                     , Shankar Nayak Bhukya2
@@ -468,12 +666,12 @@
                               </ul>
                             </div>
 
-                            <div id="PUB2" class="tab-pane fade" style="padding-top: 180px;margin-left: 400px;width:100%;">
+                            <div id="PUB2" class="tab-pane fade">
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, distinctio.</p>
                             </div>
                              
-                            <div id="PUB3" class="tab-pane fade" style="padding-top: 180px;margin-left: 400px;width:100%;">
-                                <table border="1">
+                            <div id="PUB3" class="tab-pane fade" >
+                                <table border="2">
                                     <tr>
                                         <th>TITLE</th>
                                         <th>REF.NO.</th>
@@ -541,6 +739,103 @@
                             </div>
                         </div>
                     </div> 
+
+                    <div id="PAPERPRESENTATION" class="tab-pane fade" >
+                        <div class="navleft col-md-3">
+                                <ul class="nav nav-tabs nav-stacked navbar-fixed-left">
+                                    <li class="active a"><a  data-toggle="tab"  href="#PAP1">NATIONAL LEVEL</a></li>
+                                    <li class="a"><a  data-toggle="tab"  href="#PAP2">INTERNATIONAL LEVEL</a></li>
+                                </ul>
+                        </div>
+                        <div class="tab-content col-md-9">
+                            <div id="PAP1" class="tab-pane fade in active">
+                                <h3>Presented a paper at National Level</h3>
+                                <ul class="pap1">
+                                    <li> “Reliability, specificity, sensitivity of caries detection using FOTI” at 2nd National 
+                                        conference on VLSI, Communication and Networks(VCAN2010) in Eswari 
+                                        Engineering College,Chennai-89 from 12.03.2010 to 13.03.2010</li><br>
+                                    <li> “Fiber optic Transillumination” at National conference on Recent Trends in 
+                                        communication at Annai Mathammal Sheela Engineering College, Namakkal-637013
+                                        from 11.02.2010 to 12.02.2010.</li><br>
+                                    <li> “FOTI imaging system for caries detection” at National conference on “ Embedded, 
+                                        Microwave & Integrated Technologies” in Saveetha College of Engineering, Chennai 
+                                        Sponsored by DOE, Board of Research in Nuclear Sciences on 12.03.2010.</li><br>
+                                    <li> G.S.Uthayakumar, R.Niranjana, P.Nithya, ”Human body vital signs monitoring using 
+                                        a wearable device” National Conference Emerging Trends in Information and 
+                                        Communication Engineering(NCETICE’22) organized by Department of Electronics 
+                                        and Communication Engineering in association with IEEE Student chapter at CARE 
+                                        College of Engineering during 6,7 May, 2022.
+                                        </li><br>
+                                    <li> G.S.Uthayakumar,Akshya Raghu, Gayathri.R, ”A remote raw water monitoring and 
+                                        control system”, ISTE sponsored National level conference on Emerging trends in 
+                                        Engineering design and Manufacturing (ETEDM’22) on 15th and 16th June 2022</li>
+                                </ul>
+                            </div>
+
+                            <div id="PAP2" class="tab-pane fade">
+                                <h3>Presented a paper at International conference</h3>
+                                <ul class="pap2">
+                                    <li> “Mobile phone antenna and its radiation pattern” at 10th International conference on 
+                                        Electromagnetic interference and compatibility (INCEMIC-using FOTI systems” , 
+                                        Bangalore.,10th International conference held from 26.11.2008 to 27.11.2008,pp.355-
+                                        360;</li><br>
+                                    <li> “Mobile usage and its cancer” at INCEMIC, NIMPHAN convention centre, 
+                                        Bangalore.,pp.627-632.</li><br>
+                                    <li> “Early cancer detection using human body waste(Nails)” 3
+                                        rd International conference 
+                                        on Recycling and Reuse of Materials-ICRM-2014,11-13 April 2014.</li><br>
+                                    <li> “Monitoring of drugs at molecular level using FTIR” 3rd World congress 
+                                        Biotechnology,13-15 Sep.2012 Hyderabad International convention Centre.</li><br>
+                                    <li> Attended a DAE-BRNS sponsored National Laser Symposium(NLS-20) at Crystal 
+                                        growth centre, Anna University, Chennai from 09.01.2012 to 12.01.2012.</li><br>
+                                    <li> “Monitoring of human body tissues at molecular level using FOTI systems” 8th
+                                        International symposium on Bioinformatics Research and applications,21-23 May 
+                                        2012, University of Texas at Dallas, Texas,pp.133-147.</li><br>
+                                    <li> “Invisible sensors” International conference on Computer Science & Information 
+                                        Technology held at Chennai on 10th May 2014.</li><br>
+                                    <li> G.S.Uthayakumar, ”Early detection of cancer using human body waste(Nails)” at 3rd
+                                        International conference on Recycling and Reuse(ICRM-2014), organized by 
+                                        M.G.University, Kottayam, Kerala and Wroclaw University of Technology, Faculty of 
+                                        Electrical Engineering, Poland from 11.04.2014 to 13.04.2014.</li><br>
+                                    <li> Attended SPICON 2016 at SPIN Chennai on the theme “Energizing delivery paradigm 
+                                        in a digital world” held from 18.11.2016 to 19.11.2016.</li><br>
+                                    <li> G.S.Uthayakumar,”IoT for monitoring Chiropractors” at 7th Euro-India International 
+                                        conference on Holistic Medicine 2017,15.09.2017 to 17.09.2017 at Institute of Holistic 
+                                        Medical Sciences, Kottayam, Kerala and Ayurdeda-Und Venen –Klink,Austria.</li><br>
+                                    <li> G.S.Uthayakumar, ”Natural Plants as Modulators of Apoptosis” ,10-12.11.2017 at 
+                                        Euro-India International Conference on Experimental and Clinical Medicine at 
+                                        Mahatma Gandhi University, Kottayam, Kerala, India and Bioagile Therapeutics 
+                                        Pvt.Ltd., Bangalore from 10.11.2017 to 12.11.2017</li><br>
+                                    <li> G.S.Uthayakumar, K.Deepasaravani “Smart Sensors Based Human Emotion 
+                                        Recognition” in VI INSTITUTE OF TECHNOLOGY and Won First Prize.</li><br>
+                                    <li> G.S.Uthayakumar, K.Deepasaravani “Real Time Human Emotion Recognition by 
+                                        Smart Sensors” in Thanthaiperiyar Government Institute of technology and Won First 
+                                        Prize.</li><br>
+                                    <li> G.S.Uthayakumar, K.Deepasaravani “Automatic Human Emotion Recognition using 
+                                        smart sensors” in Sri Lakshmi Ammal Engineering College and Chendu college of 
+                                        engineering and technology.</li><br>
+                                    <li> G.S.Uthayakumar, K.Deepasaravani “Automatic Recognition of Human Emotions 
+                                        using ECG signals” in International conference organization of science and innovative 
+                                        engineering and Technology conducted by OSIET & SRI RAMANUJAR ENGINEERING 
+                                        COLLEGE, Chennai.</li><br>
+                                    <li> G.S.Uthayakumar, Irene Nisha, “Implementation of Home Monitoring System Using 
+                                        IoT” International conference at Jeppiaar Engineering College, ICONSTEM 2017, 23-24th 
+                                        March 2017,Chennai
+                                        </li><br>
+                                    <li> G.S.Uthayakumar, Santosh D and Shijolin V “Health support system for diabetic prevention 
+                                        using IOT and networked health monitoring equipment” International conference on Research in 
+                                        Electronics and Communication Techniques (ICREACT 2021) at SRM Institute of Science and 
+                                        Technology,Vadapalani,Chennai held on 3rd and 4th May 2021.</li><br>
+                                    <li> R. Sharine, J. Sharon and Dr. G. S. Uthayakumar, Early Stage Disease Diagnosis Using 
+                                        Human Nail In Image Processing.</li><br>
+                                    <li> G.S.Uthayakumar,Reena Sherin D, Pavithradevy I, ”Wearable microstrip patch Antenna 
+                                        for IoT Applications” First International conference on Management, Entrepreneurship, 
+                                        Science and Engineering(ICAMESE 2022) organized by I Business Institute Greater 
+                                        Noida,UP,India on 28th and 29th May 2022.</li><br>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
