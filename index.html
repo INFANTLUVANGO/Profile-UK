@@ -20,6 +20,9 @@
         box-sizing: border-box;
         color: rgb(0, 0, 0);
     }
+    .col-md-12{
+        padding-left: 0px;
+    }
 
     /* body{
         background-image: url(https://cdn.wallpapersafari.com/35/66/dYJlca.jpg);
@@ -64,11 +67,11 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: rgb(0, 0, 0);
         padding: 10px;
+        text-align: justify;
     }
 
     #nav {
         font-weight: bold;
-        padding-left: 0px;
     }
 
     .a {
@@ -151,28 +154,13 @@
         padding-top: 150px;
     }
 
-    #WORK1 {
+    #WORK1,#WORK2,#WORK3,#WORK4 {
         padding-top: 180px;
         margin-left: 400px;
         width: 100%;
     }
-
-    #WORK2 {
-        padding-top: 180px;
-        margin-left: 400px;
-        width: 100%;
-    }
-
-    #WORK3 {
-        padding-top: 180px;
-        margin-left: 400px;
-        width: 100%;
-    }
-
-    #WORK4 {
-        padding-top: 180px;
-        margin-left: 400px;
-        width: 100%;
+    .work1{
+        position: fixed;
     }
 
     .work2 {
@@ -196,32 +184,14 @@
         padding-top: 5px;
         padding-left: 40px;
         list-style-type: square;
+       
     }
 
-    #PUB1 {
+    #PUB1,#PUB2,#PUB3,#PUB4 {
         padding-top: 180px;
         margin-left: 400px;
         width: 100%;
     }
-
-    #PUB2 {
-        padding-top: 180px;
-        margin-left: 400px;
-        width: 100%;
-    }
-
-    #PUB3 {
-        padding-top: 180px;
-        margin-left: 400px;
-        width: 100%;
-    }
-
-    #PUB4 {
-        padding-top: 180px;
-        margin-left: 400px;
-        width: 100%;
-    }
-
     .gap {
         padding: 5px;
     }
@@ -242,7 +212,7 @@
         width: 100%;
     }
 
-    .pap1 {
+    .pap1,.pap2 {
         font-size: 20px;
         font-weight: 100;
         padding-top: 5px;
@@ -250,27 +220,7 @@
         list-style-type: square;
     }
 
-    .pap2 {
-        font-size: 20px;
-        font-weight: 100;
-        padding-top: 5px;
-        padding-left: 40px;
-        list-style-type: square;
-    }
-
-    #ACH1 {
-        padding-top: 180px;
-        margin-left: 400px;
-        width: 100%;
-    }
-
-    #ACH2 {
-        padding-top: 180px;
-        margin-left: 400px;
-        width: 100%;
-    }
-
-    #ACH3 {
+    #ACH1,#ACH2,#ACH3 {
         padding-top: 180px;
         margin-left: 400px;
         width: 100%;
@@ -284,40 +234,18 @@
         list-style-type: square;
     }
 
-    .ach2 {
-        font-size: 20px;
+    .ach2,.ach3 {
+        font-size: 15px;
         font-weight: 100;
-        padding-top: 10px;
-        padding-left: 40px;
+        padding-top: 5px;
+        padding-left: 25px;
     }
-
-    .ach3 {
-        font-size: 20px;
-        font-weight: 100;
-        padding-top: 10px;
-        padding-left: 40px;
-    }
-
-    #SHOP1 {
+    #SHOP1,#SHOP2 {
         padding-top: 180px;
         margin-left: 400px;
         width: 100%;
     }
-
-    #SHOP2 {
-        padding-top: 180px;
-        margin-left: 400px;
-        width: 100%;
-    }
-
-    .shop1 {
-        font-size: 20px;
-        font-weight: 100;
-        padding-top: 10px;
-        padding-left: 40px;
-    }
-
-    .shop2 {
+    .shop1,.shop2 {
         font-size: 20px;
         font-weight: 100;
         padding-top: 10px;
@@ -338,19 +266,12 @@
         list-style-type: square
     }
 
-    #PRO1 {
+    #PRO1,#PRO2 {
         padding-top: 180px;
         margin-left: 400px;
         width: 100%;
     }
-
-    #PRO2 {
-        padding-top: 180px;
-        margin-left: 400px;
-        width: 100%;
-    }
-
-    .pro1 {
+    .pro1,.pro2 {
         font-size: 20px;
         font-weight: 100;
         padding-top: 10px;
@@ -358,13 +279,603 @@
         list-style-type: square
     }
 
-    .pro2 {
+    /* 
+    
+    RESPONSIVE
+
+    */
+    @media only screen and  (min-width: 900px) and (max-width: 1100px)
+     {
+        .head {
+        margin: 0px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background-color: rgb(3, 0, 0);
+        padding-right: 25px;
+        font-weight: bold;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-size: 28px;
+    }
+    #nav {
+        font-weight: bold;
+        font-size: 14px;
+    }
+    #HOME {
+        padding-top: 135px;
+    }
+
+    .career {
+        font-weight: bolder;
+        margin-bottom: 5px;
+        text-align: center;
         font-size: 20px;
-        font-weight: 100;
         padding-top: 10px;
-        padding-left: 40px;
+    }
+    p {
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(0, 0, 0);
+        padding: 10px;
+    }
+    .image {
+        width: 75%;
+        margin-left: 100px;
+    }
+
+    .mySlides {
+        width: 100%;
+        height: 50vh;
+    }
+    .navbar-fixed-left {
+        margin-top: 20px;
+    }
+    .navleft {
+        height: 100%;
+        position: fixed;
+        z-index: 1;
+        background-color: aqua;
+        height: 100vh;
+        padding-top: 140px;
+        width: 20%;
+    }
+    .a{
+        font-size: 12px;
+        text-align:justify;
+    }
+    th {
+        padding: 10px;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    td {
+        padding: 10px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .edudetails{
+        font-size: 25px;
+    }
+    .education {
+        text-align: center;
+        margin-top: 22px;
+       
+    }
+    .edudetails{
+        font-size: 20px;
+    }
+
+    .edutable {
+        margin-left:0px ;
+        width :100%;
+    }
+    h2,h3{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    #WORK1,#WORK2,#WORK3,#WORK4 {
+        padding-top: 170px;
+        margin-left: 240px;
+        width:80%;
+        
+    }
+    .work2 {
+        font-size: 15px;
+        font-weight: 100;
+        padding-top: 7px;
+        padding-left: 25px;
+    }
+
+    .work3 {
+        font-size: 15px;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-left: 25px;
+        list-style-type: square;
+    }
+
+    .work4 {
+        font-size: 15px;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-left: 25px;
+        list-style-type: square;
+    }
+    #PUB1,#PUB2,#PUB3,#PUB4 {
+        padding-top: 170px;
+        margin-left: 240px;
+        width: 80%;
+    }
+    .pub {
+        font-size: 15px;
+        font-weight: 200;
+        padding: 10px;
+    }
+    #PAP1,#PAP2,#PAP3,#PAP4 {
+        padding-top: 170px;
+        margin-left: 240px;
+        width: 80%;
+    }
+    .pap1,.pap2 {
+        font-size: 15px;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-left: 25px;
+        list-style-type: square;
+    }
+    #ACH1,#ACH2,#ACH3 {
+        padding-top: 170px;
+        margin-left: 240px;
+        width: 80%;
+    }
+
+    .ach1 {
+        font-size: 15px;
+        font-weight: 100;
+        padding-top:px;
+        padding-left: 25px;
+        list-style-type: square;
+    }
+
+    .ach2,.ach3 {
+        font-size: 15px;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-left: 25px;
+    }
+    #SHOP1,#SHOP2 {
+        padding-top: 170px;
+        margin-left: 240px;
+        width: 80%;
+    }
+    .shop1,.shop2 {
+        font-size: 15px;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-left: 25px;
+    }
+    #WEB1 {
+        padding-top: 170px;
+        margin-left: 240px;
+        width: 80%;
+    }
+
+    .web1 {
+        font-size: 15px;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-left: 25px;
         list-style-type: square
     }
+
+    #PRO1,#PRO2 {
+        padding-top: 170px;
+        margin-left: 240px;
+        width: 80%;
+    }
+    .pro1,.pro2 {
+        font-size: 15px;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-left: 25px;
+        list-style-type: square
+    }
+}
+
+
+     @media only screen and  (min-width: 650px) and (max-width: 900px)
+     {
+        .head {
+        margin: 0px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background-color: rgb(3, 0, 0);
+        padding-right: 25px;
+        font-weight: bold;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 25px;
+    }
+    #nav {
+        font-weight: bold;
+        font-size: 12px;
+    }
+    #HOME {
+        padding-top: 125px;
+    }
+
+    .career {
+        font-weight: bolder;
+        margin-bottom: 5px;
+        text-align: center;
+        font-size: 17px;
+    }
+    p {
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(0, 0, 0);
+        padding: 10px;
+    }
+    .image {
+        width: 70%;
+        margin-left: 100px;
+    }
+
+    .mySlides {
+        width: 100%;
+        height: 40vh;
+    }
+    .navbar-fixed-left {
+        margin-top: 10px;
+    }
+    .navleft {
+        height: 100%;
+        position: fixed;
+        z-index: 1;
+        background-color: aqua;
+        height: 100vh;
+        padding-top: 125px;
+        width: 20%;
+    }
+    .a{
+        font-size: 10px;
+        text-align:justify;
+    }
+    th {
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    td {
+        padding: 12px;
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .education {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .edudetails{
+        font-size: 20px;
+    }
+
+    .edutable {
+        margin-left:0px ;
+        width :100%;
+    }
+    h2,h3{
+        font-size: 19px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    #WORK1,#WORK2,#WORK3,#WORK4 {
+        padding-top: 150px;
+        margin-left: 160px;
+        width: 80%;
+    }
+    .work2 {
+        font-size: 15px;
+        font-weight: 100;
+        padding-top: 7px;
+        padding-left: 25px;
+    }
+
+    .work3 {
+        font-size: 15px;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-left: 25px;
+        list-style-type: square;
+    }
+
+    .work4 {
+        font-size: 15px;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-left: 25px;
+        list-style-type: square;
+    }
+    #PUB1,#PUB2,#PUB3,#PUB4 {
+        padding-top: 150px;
+        margin-left: 160px;
+        width: 80%;
+    }
+    .pub {
+        font-size: 15px;
+        font-weight: 200;
+        padding: 10px;
+    }
+    #PAP1,#PAP2,#PAP3,#PAP4 {
+        padding-top: 150px;
+        margin-left: 160px;
+        width: 80%;
+    }
+    .pap1,.pap2 {
+        font-size: 15px;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-left: 25px;
+        list-style-type: square;
+    }
+    #ACH1,#ACH2,#ACH3 {
+        padding-top: 150px;
+        margin-left: 160px;
+        width: 80%;
+    }
+
+    .ach1 {
+        font-size: 15px;
+        font-weight: 100;
+        padding-top:px;
+        padding-left: 25px;
+        list-style-type: square;
+    }
+
+    .ach2,.ach3 {
+        font-size: 15px;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-left: 25px;
+    }
+    #SHOP1,#SHOP2 {
+        padding-top: 150px;
+        margin-left: 160px;
+        width: 80%;
+    }
+    .shop1,.shop2 {
+        font-size: 15px;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-left: 25px;
+    }
+    #WEB1 {
+        padding-top: 150px;
+        margin-left: 160px;
+        width: 80%;
+    }
+
+    .web1 {
+        font-size: 15px;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-left: 25px;
+        list-style-type: square
+    }
+
+    #PRO1,#PRO2 {
+        padding-top: 150px;
+        margin-left: 160px;
+        width: 80%;
+    }
+    .pro1,.pro2 {
+        font-size: 15px;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-left: 25px;
+        list-style-type: square
+    }
+}
+@media only screen and  (min-width:300px) and (max-width:650px ){
+    
+        .head {
+        margin: 0px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background-color: rgb(3, 0, 0);
+        font-weight: bold;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 20px;
+    }
+    #nav {
+        font-weight: bold;
+        font-size: 8px;
+    }
+    #HOME {
+        padding-top: 105px;
+    }
+
+    .career {
+        font-weight: bolder;
+        margin-bottom: 5px;
+        text-align: center;
+        font-size: 17px;
+    }
+    p {
+        font-size: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        width: 100%;
+    }
+    .image {
+        width: 80%;
+        margin-left: 55px;
+    }
+
+    .mySlides {
+        width: 100%;
+        height: 30vh;
+    }
+    .navbar-fixed-left {
+        margin-top: 10px;
+    }
+    .navleft {
+        height: 100%;
+        position: fixed;
+        z-index: 1;
+        background-color: aqua;
+        height: 100vh;
+        padding-top: 105px;
+        width: 20%;
+    }
+    .a{
+        font-size: 8px;
+        text-align:justify;
+    }
+    th {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    td {
+        padding: 10px;
+        font-size: 8px;
+        font-weight: 600;
+    }
+
+    .education {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .edudetails{
+        font-size: 18px;
+    }
+
+    .edutable {
+        margin-left:0px ;
+        width :100%;
+        
+    }
+    h2,h3{
+        font-size: 16px;
+    }
+    h4{
+        font-size: 14px;
+    }
+    #WORK1,#WORK2,#WORK3,#WORK4 {
+        padding-top: 130px;
+        margin-left: 90px;
+        width: 80%;
+        
+    }
+    .work2 {
+        font-size: 12px;
+        font-weight: 100;
+        padding-top: 7px;
+        padding-left:20px;
+    }
+
+    .work3 {
+        font-size: 12px;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-left: 20px;
+        list-style-type: square;
+    }
+
+    .work4 {
+        font-size: 12px;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-left: 20px;
+        list-style-type: square;
+    }
+    #PUB1,#PUB2,#PUB3,#PUB4 {
+        padding-top: 130px;
+        margin-left: 90px;
+        width: 80%;
+    }
+    .pub {
+        font-size: 12px;
+        font-weight: 200;
+        padding: 10px;
+    }
+    #PAP1,#PAP2,#PAP3,#PAP4 {
+        padding-top: 130px;
+        margin-left: 90px;
+        width: 80%;
+    }
+    .pap1,.pap2 {
+        font-size: 10px;
+        font-weight: 100;
+        padding-top: px;
+        padding-left: px;
+        list-style-type: square;
+    }
+    #ACH1,#ACH2,#ACH3 {
+        padding-top: 130px;
+        margin-left: 90px;
+        width: 80%;
+    }
+
+    .ach1 {
+        font-size: 12px;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-left: 20px;
+        list-style-type: square;
+    }
+
+    .ach2,.ach3 {
+        font-size: 12px;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-left: 20px;
+    }
+    #SHOP1,#SHOP2 {
+        padding-top: 130px;
+        margin-left: 90px;
+        width: 80%;
+    }
+    .shop1,.shop2 {
+        font-size: 12px;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-left: 20px;
+    }
+    #WEB1 {
+        padding-top: 130px;
+        margin-left: 90px;
+        width: 80%;
+    }
+
+    .web1 {
+        font-size: 12px;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-left: 20px;
+        list-style-type: square;
+    }
+
+    #PRO1,#PRO2 {
+        padding-top: 130px;
+        margin-left: 90px;
+        width: 80%;
+    }
+    .pro1,.pro2 {
+        font-size: 12px;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-left: 20px;
+        list-style-type: square;
+    }
+}
 </style>
 
 <body>
@@ -373,13 +884,11 @@
             <div class="col-md-12">
                 <ul class="nav nav-pills navbar-fixed-top">
                     <h1 class="head">UTHAYAKUMAR G.S</h1>
-                    <li id="nav" class="active"><a data-toggle="pill" href="#HOME"><span
-                                class="glyphicon glyphicon-home icon"></span> HOME</a></li>
+                    <li id="nav" class="active"><a data-toggle="pill" href="#HOME"> HOME</a></li>
                     <li id="nav"><a data-toggle="pill" href="#WORK">WORK EXPERIENCE</a></li>
                     <li id="nav"><a data-toggle="pill" href="#PUBLICATION">PUBLICATIONS</a></li>
                     <li id="nav"><a data-toggle="pill" href="#PAPERPRESENTATION">PAPER PRESENTATION</a></li>
-                    <li id="nav"><a data-toggle="pill" href="#ACHIVEMENTS"><span
-                                class="glyphicon glyphicon-star icon"></span>ACHIVEMENTS</a></li>
+                    <li id="nav"><a data-toggle="pill" href="#ACHIVEMENTS">ACHIVEMENTS</a></li>
                     <li id="nav"><a data-toggle="pill" href="#WORKSHOPS">WORKSHOPS</a></li>
                     <li id="nav"><a data-toggle="pill" href="#WEBINARS">WEBINARS</a></li>
                     <li id="nav"><a data-toggle="pill" href="#PROGRAMME">DEVELOPMENT PROGRAMME</a></li>
@@ -414,7 +923,7 @@
 
 
                         <div class="education">
-                            <h2>EDUCATION DETAILS</h2><br>
+                            <h2 class="edudetails">EDUCATION DETAILS</h2><br>
                             <table border="2px" class="edutable">
                                 <tr>
                                     <th>Name of the Exam</th>
@@ -498,11 +1007,11 @@
                                 <li class="active a"><a data-toggle="tab" href="#WORK1">DETAILS OF EMPLOYMENT</a></li>
                                 <li class="a"><a data-toggle="tab" href="#WORK2">EXPERIENCE</a></li>
                                 <li class="a"><a data-toggle="tab" href="#WORK3">INDUSTRY CAREER</a></li>
-                                <li class="a"><a data-toggle="tab" href="#WORK4">INDUSTRY CAREER RESPONSIBILITIES</a>
+                                <li class="a"><a data-toggle="tab" href="#WORK4">INDUSTRY CAREER DUTY</a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="tab-content col-md-9">
+                        <div class="tab-content col-md-">
                             <div id="WORK1" class="tab-pane fade in active">
                                 <table class="work1" border="2">
                                     <tr>
@@ -1094,7 +1603,7 @@
                     <div id="ACHIVEMENTS" class="tab-pane fade">
                         <div class="navleft col-md-3">
                             <ul class="nav nav-tabs nav-stacked navbar-fixed-left">
-                                <li class="active a"><a data-toggle="tab" href="#ACH1">ACADEMIC && ADMINISTRATIVE</a>
+                                <li class="active a"><a data-toggle="tab" href="#ACH1">ACADEMIC & ADMINISTRATIVE</a>
                                 </li>
                                 <li class="a"><a data-toggle="tab" href="#ACH2">PROJECTS</a></li>
                                 <li class="a"><a data-toggle="tab" href="#ACH3">MEMBERSHIP</a></li>
@@ -1102,7 +1611,7 @@
                         </div>
                         <div class="tab-content col-md-9">
                             <div id="ACH1" class="tab-pane fade in active">
-                                <h3>ACHIVEMENTS</h3>
+                                <h3>Achievement :</h3>
                                 <ul class="ach1">
                                     <li class="gap"> Increase in intake of the college from 300 to 540</li>
                                     <li class="gap"> Started R & D Centre for doing projects inside the campus.</li>
@@ -1119,7 +1628,7 @@
                                     <li class="gap">Result produced in ECE department of KCE: 10% to 50%.</li>
                                 </ul>
                                 <br>
-                                <h3>OTHER ACHIVEMENTS</h3>
+                                <h3>Other Achievement :</h3>
                                 <ul class="ach1">
                                     <li> Chaired a session at International Conference on Technological convergence for
                                         Information, health, food, Energy 2015, CLRI, Chennai on 2nd May 2015</li><br>
